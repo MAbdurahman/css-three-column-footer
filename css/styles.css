@@ -278,14 +278,132 @@ input[type=number] {
 	width: 100%;
 	color: var(--clr-augmented-100);
 }
+.footer__top {
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: .40fr .60fr;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+.footer__top--left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer__heading {
+	font-size: var(--fht-fluid-heading-text-h5);
+	margin-bottom: 0.5em;
+}
+
+.footer__logo--color {
+	color: var(--clr-augmented-300);
+}
+
+.footer__navigation--list {
+	position: relative;
+	top: -50%;
+	width: 100%;
+
+
+}
+.footer__navigation--link-item {
+	display: inline-block;
+}
+
+.footer__link-item {
+	position: relative;
+}
+.footer__link-item:before {
+	content: "|";
+	height: 36px;
+	display: inline-block;
+	margin-right: 2px;
+	cursor: pointer;
+
+}
+.footer__navigation--link {
+	color: var(--clr-augmented-300);
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all 0.4s;
+}
+
+.footer__navigation--link:hover,
+.footer__navigation--link:focus {
+	color: var(--clr-augmented-000);
+	transform: scale(1.25);
+}
+
+
+.footer__top--right {
+	display: grid;
+	grid-template-columns: .85fr 1fr;
+}
+
+.footer__top--right-left {
+
+}
+
+.footer__location--list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75em;
+
+}
+.footer__location--link-item {
+
+}
+.footer__location--link {
+	position: relative;
+	font-size: var(--fbt-fluid-body-text-p5);
+	letter-spacing: 1px;
+	color: var(--clr-augmented-300);
+	transition: color 0.4s, transform 0.4s;
+}
+.footer__location--link:hover,
+.footer__location--link:focus {
+	color: var(--clr-augmented-000);
+	transform: scale(1.25);
+}
+.footer__location-address {
+	display: inline-block;
+	margin-left: 0.25em;
+}
+
+.first__contact-link {
+	position: relative;
+}
+
+.footer__address--item {
+	display: block;
+}
+.first__location--address-line {
+	position: relative;
+	left: 20px;
+}
+
+.fa-solid.fa-location-dot{
+	position: absolute;
+	top: 8px;
+}
 
 
 
 
+.footer__top--right-right {
+	display: flex;
+	flex-direction: column;
+	grid-column: 2 / -1;
 
+}
 
-
-
+.footer__mission--statement {
+	font-size: var(--fbt-fluid-body-text-p5);
+	hyphens: auto;
+}
 
 
 

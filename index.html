@@ -6,7 +6,10 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Three Column Footer</title>
     <!-- fontawesome icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link crossorigin="anonymous"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
     <!-- normalize resets -->
     <link href="./css/normalize@8.0.1.css" rel="stylesheet"/>
     <!-- main styles -->
@@ -19,28 +22,87 @@
     <div class="utils-container">
         <div class="footer">
             <div class="footer__top">
-                <div class="footer__top--left"></div>
+                <div class="footer__top--left">
+                    <h4 class="footer__heading">Company<span
+                            class="footer__logo--color">Name</span></h4>
+                    <ul class="footer__navigation--list">
+                        <li class="footer__navigation--link-item">
+                            <a class="footer__navigation--link" href="#">home</a>
+                        </li>
+                        <li class="footer__navigation--link-item footer__link-item">
+                            <a class="footer__navigation--link" href="#">about us</a>
+                        </li>
+                        <li class="footer__navigation--link-item footer__link-item">
+                            <a class="footer__navigation--link" href="#">services</a>
+                        </li>
+                        <li class="footer__navigation--link-item footer__link-item">
+                            <a class="footer__navigation--link" href="#">blog</a>
+                        </li>
+                        <li class="footer__navigation--link-item footer__link-item">
+                            <a class="footer__navigation--link" href="#">contact
+                                us</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="footer__top--right">
-                    <div class="footer__top--right-left"></div>
-                    <div class="footer__top--right-right"></div>
+                    <div class="footer__top--right-left">
+                        <h4 class="footer__heading">Location</h4>
+                        <ul class="footer__location--list">
+                            <li class="footer__location--link-item">
+                                <a class="footer__location--link first__contact-link"
+                                   href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span class="footer___location-address first__location--address-line">
+                                        <span class="footer__address--item">CompanyName, LLC</span>
+                                        <span class="footer__address--item">1234 Main Street</span>
+                                        <span class="footer__address--item">Some City, Some State</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="footer__location--link-item">
+                                <a class="footer__location--link" href="#">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                    <span class="footer__location-address">
+                                        support@companyName.com
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="footer__location--link-item">
+                                <a class="footer__location--link" href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span class="footer__location-address">
+                                    123.456.7890
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__top--right-right">
+                        <h4 class="footer__heading">Mission Statement</h4>
+                        <p class="footer__mission--statement">
+                            Our mission is to provide quality education and resources to
+                            underprivileged children, empowering them to create a better
+                            future for themselves and their communities.
+                        </p>
+                    </div>
                 </div>
             </div>
             <hr class="footer__separator">
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy;&nbsp;2024 Company, All Rights Reserved
+                    &copy;&nbsp;2024 CompanyName, All Rights Reserved
                 </p>
                 <p class="footer__paragraph">
-                    <a href="#" class="footer__terms-conditions">Terms and Conditions</a>
+                    <a class="footer__terms-conditions" href="#">Terms and
+                        Conditions</a>
                 </p>
                 <p class="footer__paragraph">
-                    <a href="#" class="footer__privacy-policy">Privacy Policy</a>
+                    <a class="footer__privacy-policy" href="#">Privacy Policy</a>
                 </p>
             </div>
         </div>
     </div>
 </footer>
-
 
 
 <!-- jquery -->
