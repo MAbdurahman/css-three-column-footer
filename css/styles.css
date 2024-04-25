@@ -440,6 +440,7 @@ input[type=number] {
 .footer__mission--statement {
 	font-size: var(--fbt-fluid-body-text-p5);
 	hyphens: auto;
+	color: var(--clr-augmented-300);
 }
 
 .footer__social-media-list {
